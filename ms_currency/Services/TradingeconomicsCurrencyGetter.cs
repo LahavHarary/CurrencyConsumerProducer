@@ -5,8 +5,8 @@ namespace ms_currency.Services;
 
 public class TradingeconomicsCurrencyGetter : AbstractCurrencyGetter
 {
-    private string _prefix;
-    private string _suffix;
+    private const string PREFIX = "//tr[@data-symbol='";
+    private string SUFFIX = ":CUR']/td[@id='p']/text()";
 
     /// <summary>
     ///  The purpose of this CTOR is to decide from where the web scarping should happen.
@@ -16,9 +16,6 @@ public class TradingeconomicsCurrencyGetter : AbstractCurrencyGetter
     /// <param name="useTestFile"></param>
     public TradingeconomicsCurrencyGetter(bool useTestFile = true)
     {
-        _prefix = "//tr[@data-symbol='";
-        _suffix = ":CUR']/td[@id='p']/text()";
-        
         if(useTestFile)
             LoadHtmlDocument(ConfigHelperService.GetData("TestUrl"));
         else
@@ -71,7 +68,7 @@ public class TradingeconomicsCurrencyGetter : AbstractCurrencyGetter
     /// <returns></returns>
     private double GeneralGetFunction(string currencyIdentifier)
     {
-        var currencyValue = _document.DocumentNode.SelectSingleNode(_prefix +currencyIdentifier +_suffix).InnerHtml;
+        var currencyValue = _document.DocumentNode.SelectSingleNode(PREFIX +currencyIdentifier +SUFFIX).InnerHtml;
         var trimmed = currencyValue.Substring(0, currencyValue.Length - 1);
         return Convert.ToDouble(trimmed);
     }
