@@ -32,4 +32,5 @@ After reading the documentation I discovered that SQLite is working by default w
 ## Resources
 
 [SQLite](https://choosealicense.com/licenses/mit/)
+<br><br/>
 [HAP - Html Agility Pack](https://html-agility-pack.net/)
