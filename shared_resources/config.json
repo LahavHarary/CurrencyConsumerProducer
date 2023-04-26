@@ -1,0 +1,7 @@
+{
+  "MySettings": {
+    "TradingeconomicsUrl": "https://tradingeconomics.com/euro-area/currency",
+    "TestUrl": "/Users/lahav/RiderProjects/CurrencyConsumerProducer/ms_currency/WebScrappedFile.html",
+    "NameOfDbFile": "example.db"
+  }
+}

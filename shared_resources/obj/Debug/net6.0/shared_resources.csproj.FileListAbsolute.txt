@@ -1,0 +1,12 @@
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/bin/Debug/net6.0/shared_resources.deps.json
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/bin/Debug/net6.0/shared_resources.dll
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/bin/Debug/net6.0/shared_resources.pdb
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.csproj.AssemblyReference.cache
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.AssemblyInfoInputs.cache
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.AssemblyInfo.cs
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.csproj.CoreCompileInputs.cache
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.dll
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/refint/shared_resources.dll
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/shared_resources.pdb
+/Users/lahav/RiderProjects/CurrencyConsumerProducer/shared_resources/obj/Debug/net6.0/ref/shared_resources.dll
