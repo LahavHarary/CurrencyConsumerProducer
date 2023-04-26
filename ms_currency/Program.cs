@@ -1,6 +1,10 @@
 ﻿using ms_currency.Services;
 
-CurrencyServiceFlow.RunFlow();
+
+int numOfIteration = 10;
+bool useTestFile = false;
+int mSecWait = 10000;
+CurrencyServiceFlow.RunFlow(numOfIteration, useTestFile, mSecWait);
 
 
 
