@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms_currency", "ms_currency\ms_currency.csproj", "{505DAC91-6D00-426E-8F68-544FD6FEB641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ms_reader", "ms_reader\ms_reader.csproj", "{DF8FC6A2-84C3-404C-BA0E-102BAC7A857D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared_resources", "shared_resources\shared_resources.csproj", "{665C1BFA-31B0-46D7-8E85-BB096598BE2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505DAC91-6D00-426E-8F68-544FD6FEB641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505DAC91-6D00-426E-8F68-544FD6FEB641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505DAC91-6D00-426E-8F68-544FD6FEB641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505DAC91-6D00-426E-8F68-544FD6FEB641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8FC6A2-84C3-404C-BA0E-102BAC7A857D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8FC6A2-84C3-404C-BA0E-102BAC7A857D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8FC6A2-84C3-404C-BA0E-102BAC7A857D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8FC6A2-84C3-404C-BA0E-102BAC7A857D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665C1BFA-31B0-46D7-8E85-BB096598BE2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665C1BFA-31B0-46D7-8E85-BB096598BE2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665C1BFA-31B0-46D7-8E85-BB096598BE2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665C1BFA-31B0-46D7-8E85-BB096598BE2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
